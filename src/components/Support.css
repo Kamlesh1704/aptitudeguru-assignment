@@ -154,29 +154,15 @@ margin: 0%;
 .img-div{
     background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717074529/Frame_3465981_hmxece.png");
     height: 200px;
-    background-size: cover;
     width: 200px;
     margin-left: 100px;
     margin-top: 10%;
     border-radius: 20px;
 }
-.img3{
-    width: 178px;
-    height: 147px;
-    top: 218px;
-    left: 222px;
-    gap: 0px;
-    border-radius: 8px;
-    border: none;
-}
-.img2{
-    width: 238px;
-height: 249px;
-top: 175px;
-left: 32px;
-gap: 0px;
-border-radius: 8px;
-border: none;
+.img-1{
+    height: 150px ;
+    width: 150px ;
+
 }
 
 @media screen and (max-width: 768px) {

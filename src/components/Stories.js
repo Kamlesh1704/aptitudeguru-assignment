@@ -13,7 +13,7 @@ export default function Stories() {
         return (
           <div
             className={className}
-            style={{ ...style, display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"25px",width:"25px"}}
+            style={{ ...style, display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"35px",width:"35px"}}
             onClick={onClick}
           />
         );
@@ -24,7 +24,7 @@ export default function Stories() {
         return (
           <div
             className={className}
-            style={{ ...style,display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"25px",width:"25px"}}
+            style={{ ...style,display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"35px",width:"35px"}}
             onClick={onClick}
           />
         );
@@ -40,8 +40,7 @@ export default function Stories() {
   return (
     <div className='stories-div'>
       <h1 className='storyheaind'>Customer Stories</h1>
-      <div className='slider-container'>
-      <Slider {...settings} >
+      <Slider {...settings} className='Slider'>
         <div className='slider-card'>
             <BiSolidQuoteAltLeft className='icon'/>
             <div className='slidercontent'>
@@ -113,7 +112,6 @@ export default function Stories() {
             </div>
         </div>
     </Slider>
-    </div>
       </div>
   )
 }

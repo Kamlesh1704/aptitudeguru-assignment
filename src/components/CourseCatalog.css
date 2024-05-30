@@ -5,11 +5,11 @@
     align-items:center;
     justify-content: center;
     background-size: cover;
-    width: 1440px;
+    width: 100vw;
 height: 508px;
 top: 5590px;
 gap: 0px;
-  
+  opacity: 70%;
 }
 
 .btn-div{
@@ -27,7 +27,8 @@ font-size: 64px;
 font-weight: 600;
 line-height: 76.8px;
 text-align: left;
-color: #000000;
+color: #000000 !important;
+opacity: 100% !important;
 margin: 0%;
 }
 .catalogcontainer p{
