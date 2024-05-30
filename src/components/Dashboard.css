@@ -1,0 +1,140 @@
+.dashboard-container{
+    margin-top: 5%;
+}
+.dash-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.dash-1-1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.dash-1-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dash-card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.discover{
+    width: 526px;
+height: 174px;
+gap: 0px;
+  
+font-family: Lato;
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: left;
+color: #000000;
+
+}
+.with{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 434px;
+height: 72px;
+gap: 0px;
+  
+color: #000000;
+padding-bottom: 2%;
+}
+.simply{
+    width: 166px;
+height: 30px;
+gap: 0px;
+  
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #000000;
+
+}
+.access{
+    width: 208px;
+height: 72px;
+gap: 0px;
+  
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #575353;
+margin: 0%;
+}
+.big-square{
+    margin-left: 7%;
+    margin-top: 8%;
+    height: 90vh;
+    width: 90vw;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard-container{
+        margin-top: 5%;
+    }
+    .dash-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+        flex-direction: column;
+    }
+    .dash-card{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .ff{
+       padding-left: 50px;
+    }
+    .discover{
+    font-size: 28px;
+    text-align: center;
+    
+    }
+    .with{
+    font-size: 12px;
+    text-align: center;
+    }
+    .simply{
+    font-size: 15px;
+    text-align: center;
+    }
+    .access{
+        width: 208px;
+    height: 72px;
+    gap: 0px;
+      
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #575353;
+    margin: 0%;
+    }
+    .big-square{
+        margin-left: 7%;
+        margin-top: 8%;
+        height: 50vh;
+        width: 90vw;
+    }
+    
+}

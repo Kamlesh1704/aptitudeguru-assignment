@@ -1,0 +1,253 @@
+.support-container{
+    width: 100vw;
+height: 971px;
+top: 4531px;
+gap: 0px;
+display: flex;
+flex-direction: column;
+margin-top: 5%;
+}
+.support1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.spiral2{
+    align-self: flex-start;
+}
+.support-star{
+    width: 98px;
+height: 98px;
+top: 4639px;
+left: 64px;
+gap: 0px;
+  
+margin-left: 5%;
+}
+.support1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.support1-1 h1{
+    width: 490px;
+height: 58px;
+gap: 0px;
+  
+font-family: Lato;
+font-size: 48px;
+font-weight: 400;
+line-height: 57.6px;
+text-align: left;
+color: #000000;
+
+}
+.designp{
+    width: 940px;
+height: 120px;
+gap: 0px;
+  
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+color: #484848;
+margin: 0%;
+}
+.support1-1-1{
+    display: flex;
+    align-items: center;
+    width: Fixed (342px)px;
+height: 30px;
+top: 331px;
+left: 553px;
+padding: 8px;
+gap: 15px;
+border-radius: 500px;
+border: 2px 0px 0px 0px;
+background: #FFFFFF;
+border: 2px solid #FF8CA6;
+margin-top: 5%;
+}
+.p1{
+    width: Hug (120px)px;
+    height: Hug (43px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 500px;
+    border: 1px ;
+    background: #FF5E79;
+    border: 1px solid #FC2947;
+    color: white;    
+}
+.p2{
+    width: Hug (190px)px;
+    height: Hug (43px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    color:#FC2947 ;
+    border-radius: 500px;
+    
+}
+.supportcardcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.support-card{
+    width: 380px;
+height: 409px;
+top: 456px;
+left: 34px;
+gap: 0px;
+border-radius: 8px;
+  
+box-shadow: -2px 4px 4px 0px #62DB8B26;
+box-shadow: 2px 4px 4px 0px #62DB8B26;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding-left: 15px;
+margin-top: 3%;
+}
+.img-1{
+    width: 176px;
+height: 115px;
+top: 168px;
+left: 14px;
+gap: 0px;
+border-radius: 8px;
+border: none;
+}
+.support-card h1{
+    width: 147px;
+height: 38px;
+top: 33px;
+left: 28px;
+gap: 0px;
+  
+font-family: Lato;
+font-size: 32px;
+font-weight: 400;
+line-height: 38.4px;
+text-align: left;
+
+}
+.support-card p{
+    width: 353px;
+height: 40px;
+top: 82px;
+left: 32px;
+gap: 0px;
+  
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #5A5A5A;
+margin: 0%;
+}
+.img-div{
+    background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717074529/Frame_3465981_hmxece.png");
+    height: 200px;
+    background-size: cover;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.img3{
+    width: 178px;
+    height: 147px;
+    top: 218px;
+    left: 222px;
+    gap: 0px;
+    border-radius: 8px;
+    border: none;
+}
+.img2{
+    width: 238px;
+height: 249px;
+top: 175px;
+left: 32px;
+gap: 0px;
+border-radius: 8px;
+border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .support-container{
+    height: 1571px;
+    }
+    .spiral2{
+        display: none;
+    }
+    .support-star{
+        width: 78px;
+    height: 78px;
+    margin-left: 2%;
+    }
+    .support1-1 h1{
+    font-size: 28px;
+    text-align: center;
+    
+    }
+    .designp{
+    font-size: 14px;
+    }
+    .support1-1-1{
+        width: 201px;
+    height: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    }
+    .p1{
+        width: 50px;
+        height: 20px;
+        padding: 10px 20px 10px 20px;  
+    }
+    .supportcardcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .support-card{
+        width: 330px;
+    height: 369px;
+    }
+    .img-1{
+        width: 136px;
+    height: 95px;
+    }
+    .support-card h1{
+    font-size: 22px;
+    text-align: right;
+    
+    }
+    .support-card p{
+    font-size: 13px;
+    text-align: center;
+    }
+
+    .img-div{
+        background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717074529/Frame_3465981_hmxece.png");
+        height: 170px;
+        background-size: cover;
+        width: 200px;
+        margin-left: 70px;
+        margin-top: 5%;
+        border-radius: 20px;
+    }
+    .support1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+}

@@ -1,0 +1,127 @@
+.quecontainer{
+    height: 100vh;
+    top: 7002px;
+    left: 24px;
+    padding: 71px 288px 71px 307px;
+    gap: 0px;
+      
+    background: #F8F8F8;
+}
+.faheading{
+    text-align: center;
+font-family: Lato;
+font-size: 48px;
+font-weight: 400;
+line-height: 57.6px;
+color: #222641;
+
+}
+.question-container{
+    width: Fixed (798px)px;
+    height: Fixed (706px)px;
+    top: 189px;
+    left: 307px;
+    padding: 0px 0px 7356.05px 0px;
+    gap: 16px;
+    border-radius: 16px 0px 0px 0px;
+      
+      
+}
+.question-card{
+    width: 798px;
+height: 234px;
+gap: 0px;
+border-radius: 16px;
+  
+background: #FFFFFF;
+margin-left: 5%;
+margin-bottom: 5px;
+}
+.pp{
+    font-family: Montserrat;
+font-size: 16.7px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #556482;
+margin-left: 3%;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.question-card-2{
+    width: 763px;
+height: 78px;
+padding: 0px 18px 0px 0px;
+gap: 0px;
+border-radius: 16px;
+  
+background: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 5%;
+margin-bottom: 8px;
+padding-right: 2%;
+padding-left: 2%;
+}
+        
+@media screen and (max-width:768px) {
+    .quecontainer{
+        height: 100vh;
+        top: 7002px;
+        left: 24px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+          
+        background: #F8F8F8;
+    }
+    .faheading{
+    font-size: 38px;
+    
+    }
+    .question-container{
+        width: Fixed (798px)px;
+        height: Fixed (706px)px;
+        top: 189px;
+        left: 307px;
+        padding: 0px 0px 7356.05px 0px;
+        gap: 16px;
+        border-radius: 16px 0px 0px 0px;
+          
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          flex-direction: column;
+    }
+    .question-card{
+        width: 483px;
+    height: 204px;
+    gap: 0px;
+    border-radius: 16px;
+      
+    background: #FFFFFF;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    }
+    .pp{
+        font-family: Montserrat;
+    font-size: 10.7px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #556482;
+    margin-left: 3%;
+    }
+    .question-card-2{
+        width: 463px;
+    height: 78px;
+    }
+            
+}

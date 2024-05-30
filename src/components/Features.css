@@ -1,0 +1,160 @@
+.feature-container{
+    width: 100vw;
+}
+.featureheading{
+    font-family: Lato;
+font-size: 48px;
+font-weight: 400;
+line-height: 57.6px;
+width: 804px;
+height: 58px;
+gap: 0px;
+margin-left: 25%;
+color: #000000;
+
+}
+.featurepara{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+width: 808px;
+height: 80px;
+gap: 0px;
+margin-left: 25%;
+margin-bottom: 40px;
+color: #484848;
+
+}
+.featurecardcontainer{
+display: flex;
+align-items: center;
+height: 80vh;
+justify-content: space-between;
+margin-left: 5%;
+margin-right: 5%;
+}
+.card3{
+    align-self: flex-end;
+}
+.card2{
+    align-self: center;
+}
+.card1{
+    align-self: flex-start;
+}
+.featurecard{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 370px;
+height: 435px;
+top: 2226px;
+left: 69px;
+gap: 0px;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: -2px 4px 4px 0px #B2C1D826;
+box-shadow: 2px 4px 4px 0px #6299DB26;
+
+}
+.featurecard img{
+    width: 120px;
+height: 120px;
+top: 54px;
+left: 124px;
+gap: 0px;
+
+}
+.featurecard h1{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+width: 319px;
+height: 60px;
+top: 187px;
+left: 25px;
+gap: 0px;
+color: #000000;
+
+}
+.featurecard p{
+    width: 345px;
+height: 40px;
+top: 260px;
+left: 12px;
+gap: 0px;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #000000;
+
+}
+.featurecard button{
+    width: Hug (122px)px;
+height: Hug (40px)px;
+top: 337.5px;
+left: 143.5px;
+padding: 8px 16px 8px 16px;
+gap: 8px;
+border-radius: 5px;
+background: #0B5FFF;
+color: white;
+border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .feature-container{
+        width: 100vw;
+    }
+    .featureheading{
+    font-size: 30px;
+    margin-left: 15%;
+    }
+    .featurepara{
+    font-size: 20px;
+    margin-right: 35%;
+    margin-bottom: 40px;
+    text-align: left;
+    }
+    .featurecardcontainer{
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    }
+    .card3{
+        align-self: center;
+    }
+    .card2{
+        align-self: center;
+    }
+    .card1{
+        align-self:center;
+    }
+    .featurecard{
+    width: 250px;
+    height: 335px;
+    
+    }
+    .featurecard img{
+        width: 90px;
+    height: 90px;
+    margin-top: 5%;
+    }
+    .featurecard h1{
+    font-size: 18px;
+    margin: 3%;
+    }
+    .featurecard p{
+    font-size: 10px;
+    }
+}

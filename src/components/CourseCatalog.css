@@ -1,0 +1,103 @@
+.catalogcontainer{
+    background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717076089/Frame_3465980_ulsets.png");
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    width: 1440px;
+height: 508px;
+top: 5590px;
+gap: 0px;
+  
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+}
+.catalogcontainer h1{
+    width: 819px;
+height: 77px;
+top: 100px;
+left: 311px;
+gap: 0px;;
+font-family: Lato;
+font-size: 64px;
+font-weight: 600;
+line-height: 76.8px;
+text-align: left;
+color: #000000;
+margin: 0%;
+}
+.catalogcontainer p{
+    width: 763px;
+height: 27px;
+top: 213px;
+left: 346px;
+gap: 0px;
+  
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: left;
+color: #595454;
+margin: 1%;
+}
+.btn-div button{
+    width: 220px;
+height: 60px;
+top: 35px;
+left: 66.5px;
+padding: 24px 64px 24px 64px;
+gap: 8px;
+border-radius: 4px;
+  
+color: white;
+border: none;
+margin-top: 19%;
+}
+.contactbtn{
+    background-color: #FC2947;
+    margin-left: 40px;
+}
+@media screen and (max-width: 768px) {
+    .catalogcontainer{
+        width: 100vw;
+    height: 458px;
+    margin-top: 10%;
+    }
+    
+    .btn-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .catalogcontainer h1{
+    font-size: 34px;
+    text-align: center;
+    }
+    .catalogcontainer p{
+    font-size: 16px;
+    text-align: center;
+    }
+    .btn-div button{
+        width: 220px;
+    height: 60px;
+    top: 35px;
+    left: 66.5px;
+    padding: 24px 64px 24px 64px;
+    gap: 8px;
+    border-radius: 4px;
+      
+    color: white;
+    border: none;
+    margin-top: 19%;
+    }
+    .contactbtn{
+        background-color: #FC2947;
+        margin-left: 0px;
+    }
+}

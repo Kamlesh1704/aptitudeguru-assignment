@@ -1,0 +1,230 @@
+.container-2{
+    width: 100vw;
+height: 87vh;
+top: 60px;
+gap: 0px;
+background: #FAFAFA;
+display: flex;
+justify-content: space-between;
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.content h1{
+    color: #222641;
+margin: 0%;
+}
+.spiral{
+    width: 312.99px;
+height: 325.03px;
+top: 378px;
+left: -111px;
+gap: 0px;
+border:none;
+align-self: flex-end;
+}
+
+.parasuccess{
+    width: 364px;
+height: 48px;
+top: 156px;
+left: 538px;
+gap: 0px;
+font-family: Lato;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+color: #424242;
+margin: 0%;
+}
+.welcomepara{
+    width: 808px;
+height: 120px;
+top: 249px;
+left: 316px;
+gap: 0px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+color: #484848;
+
+}
+.startbtn{
+    width: Hug (309px)px;
+height: Hug (60px)px;
+top: 412px;
+left: 565px;
+padding: 18px 48px 18px 48px;
+gap: 8px;
+border-radius: 5px;
+border: none;
+background: #FC2947;
+color: white;
+font-size: 15px;
+}
+.star{
+    width: 105px;
+height: 105px;
+top: 68px;
+left: 1283px;
+gap: 0px;
+margin-top: 70px;
+box-shadow: 0px 4px 4px 0px #00000040;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+object-fit: cover;
+margin-right: 50px;
+}
+.span-1{
+    color: rgb(239, 68, 68);
+}
+.span-2{
+    color: rgb(98, 98, 225);
+}
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.content-2{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.content-2 h1{
+    width: 648px;
+height: 135px;
+top: 30px;
+left: 35px;
+gap: 0px;
+font-family: Lato;
+font-size: 36px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;
+color: #222641;
+
+}
+.content-2 p{
+    width: 487px;
+    height: 120px;
+    top: 199px;
+    left: 35px;
+    gap: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #484848;
+        
+}
+.girl-container{
+    width: 854px;
+    height: 367px;
+    top: 938px;
+    left: 712px;
+    gap: 0px;
+    border-radius: 500px 0px 0px 500px;
+    background: #99C2FF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.girlimg{
+    width: 732px;
+    height: 485px;
+}
+.girlimgmobile{
+    display: none;
+}
+.spirall{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .container-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .spiral{
+        width: 200.99px;
+    height: 215.03px;
+    display: none;
+    }
+    .parasuccess{
+    font-size: 30px;
+    }
+    .welcomepara{
+    display: none;
+    }
+    .startbtn{
+        width: Hug (139px)px;
+    height: Hug (60px)px;
+    font-size: 12px;
+    margin-top: 5%;
+    }
+    .star{
+        width: 95px;
+    height: 95px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 40%;
+    }
+    .content{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 450px;
+    }
+    .container-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .content-2{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .content-2 h1{
+margin-top: 13%;
+    font-size: 20px;
+    text-align: center;
+}
+.content-2 p{
+        text-align: center;
+        font-size: 15px;
+            
+    }
+    .girl-container{
+        display: none;
+    }
+    .girlimg{
+        width: 432px;
+        height: 285px;
+    }
+    .girlimgmobile{
+        height: 450px;
+        width: 450px;
+        display: flex;
+        margin-top: 5%;
+    }
+}
