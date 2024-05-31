@@ -104,13 +104,12 @@ top: 456px;
 left: 34px;
 gap: 0px;
 border-radius: 8px;
-  
 box-shadow: -2px 4px 4px 0px #62DB8B26;
 box-shadow: 2px 4px 4px 0px #62DB8B26;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding-left: 15px;
+padding-left: 35px;
 margin-top: 3%;
 }
 .img-1{
@@ -152,17 +151,57 @@ color: #5A5A5A;
 margin: 0%;
 }
 .img-div{
-    background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717074529/Frame_3465981_hmxece.png");
-    height: 200px;
-    width: 200px;
-    margin-left: 100px;
+    background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717156277/Rectangle_4312_kjptif.png");
+    height: 189px;
+    width: 165px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
     margin-top: 10%;
-    border-radius: 20px;
+    margin-right: 100px;
+    border: none;
 }
 .img-1{
-    height: 150px ;
-    width: 150px ;
-
+    position: absolute;
+    bottom: 50px; /* Adjust these values to control the outward position */
+    left: 80%;
+transform: translateY(-50%);
+    width: auto; /* Adjust size as needed */
+    height: 130px;
+    padding-bottom: 150px;
+}
+.img-div-1{
+    background-image: url("https://res.cloudinary.com/kamleshcloud/image/upload/v1717156277/Rectangle_4312_kjptif.png");
+    height: 189px;
+    width: 185px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 10%;
+    margin-left: 100px;
+    border: none;
+}
+.img-2{
+    position: absolute;
+    bottom: 50px; /* Adjust these values to control the outward position */
+    left: 0%;
+transform: translateX(-50%);
+    width: auto; /* Adjust size as needed */
+    height: 120px;
+    padding-bottom: 25px;
+    border-radius: 10px 10px 10px 10px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -207,8 +246,8 @@ margin: 0%;
     height: 369px;
     }
     .img-1{
-        width: 136px;
-    height: 95px;
+        width: 126px;
+    height: 105px;
     }
     .support-card h1{
     font-size: 22px;
@@ -225,7 +264,7 @@ margin: 0%;
         height: 170px;
         background-size: cover;
         width: 200px;
-        margin-left: 70px;
+        margin-left: 10px;
         margin-top: 5%;
         border-radius: 20px;
     }

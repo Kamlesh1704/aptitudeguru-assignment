@@ -4,8 +4,7 @@
 height: 373px;
 top: 7989px;
 gap: 0px;
-border: 3px 0px 3px 0px;
-  
+border: 3px 0px 3px 0px; 
 background: #FFFFFF;
 border-width: 3px, 0px, 3px, 0px;
 margin-left: 2%;
@@ -34,7 +33,7 @@ padding-top: 3%;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-margin: 15%;
+    margin-bottom: 6%;
 }
 .ic{
     width: 21px;
@@ -42,30 +41,26 @@ height: 22px;
 top: 2px;
 left: 7px;
 gap: 0px;
-  
 margin: 2%;
 }
 .follow{
-    margin-right: 10%;
-    margin-bottom: 0%   ;
-}
-.icon-cont{
-    margin-right: 30%;
-    width: 100px;
+    padding-left: 20%;
 }
 .two{
-    width: 44px;
-height: 24px;
+    width: 104px;
+height: 14px;
 top: 20px;
 left: 19px;
 gap: 0px;
-  
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
 line-height: 24.2px;
 text-align: left;
 
+}
+.h{
+    height: 5px !important;
 }
 .input{
     width: 312px;
@@ -133,12 +128,23 @@ background: #D6D6D6;
 margin-left: 5%;
 margin-top: 5%;
 }
-
+.n{
+    padding-bottom: 3% !important;
+}
+.containe-link-mobile{
+    display: none;
+}
+.didd{
+    display: none;
+}
 @media screen and (max-width: 768px) {
     .conta{
         text-align: center;
         width: 100vw;
     height: 373px;
+    }
+    .containe-link-mobile{
+        display: flex;
     }
     .containe-link{
         display: flex;
@@ -146,13 +152,13 @@ margin-top: 5%;
     }
     .containe-link h1{
         padding-bottom: 20%;
-        font-size: 20px;
+        font-size: 15px;
     }
     .containe-link p {
         width: 85px;
         height: 19px;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         text-align: left;
     margin: 10%;
@@ -167,16 +173,49 @@ margin-top: 5%;
     margin: 2%;
     }
     .input{
-        width: 212px;
+        width: 132px;
+        height: 41px !important;
     }
     .subs{
-        width: 212px;
+        width: 140px;
     height: 51px;
     }
     .hrr{
-        width: 473px;
+        width: 353px;
     }
     .two{
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .dis{
+        display: none;
+    }
+    .didd{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .inputt{
+        width: 132px;
+        height: 31px;
+        top: 59px;
+        left: 23px;
+        gap: 0px;
+        border-radius: 5px;
+        border: 1px;
+          
+        border: 1px solid #717171;
+    }
+    .subss{
+        width: 132px;
+        height: 37px;
+        top: 127px;
+        left: 23px;
+        gap: 10px;
+        border-radius: 5px;
+          text-align: center;
+        border: none;
+        background: #427EF3;
+        color: white;
+        margin-top: 0%;
     }
 }

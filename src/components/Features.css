@@ -113,12 +113,12 @@ border: none;
         width: 100vw;
     }
     .featureheading{
-    font-size: 30px;
-    margin-left: 15%;
+    font-size: 25px;
+    margin-left: 8%;
     }
     .featurepara{
-    font-size: 20px;
-    margin-right: 35%;
+    font-size: 12px;
+    margin-right: 105%;
     margin-bottom: 40px;
     text-align: left;
     }
@@ -126,7 +126,7 @@ border: none;
     display: flex;
     align-items: center;
     height: 150vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
     flex-direction: column;
@@ -141,9 +141,9 @@ border: none;
         align-self:center;
     }
     .featurecard{
-    width: 250px;
-    height: 335px;
-    
+    width: 290px;
+    height: 345px;
+    margin-bottom: 0%;
     }
     .featurecard img{
         width: 90px;

@@ -15,7 +15,7 @@ import Footer from './Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className='home-container'>
       <Navbar />
       <div className='container-2'>
           <img src={spiral} alt="spiral" className='spiral'/>

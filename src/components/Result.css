@@ -92,6 +92,7 @@ color: #170F49;
         align-items: center;
       flex-direction: column;
       margin-top: 3%;
+      margin-right: 100px;
     }
     .card h1{
     font-size: 44px;
@@ -102,6 +103,7 @@ color: #170F49;
     }
     .result-heading{
     font-size: 35px;
+    margin-right: 80px;
     }
     
 }

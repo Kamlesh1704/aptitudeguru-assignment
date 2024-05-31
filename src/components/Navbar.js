@@ -1,12 +1,17 @@
 import React from 'react'
 import logo from '../img/logo.png'
 import { IoIosArrowDown } from "react-icons/io";
+import Popup from 'reactjs-popup'
+import 'reactjs-popup/dist/index.css'
+import { RxCross2 } from "react-icons/rx";
 import { IoIosLogIn } from "react-icons/io";
-import { FiUserPlus } from "react-icons/fi";
+import { FiThermometer, FiUserPlus } from "react-icons/fi";
+import { IoReorderThreeSharp } from "react-icons/io5";
 import './Navbar.css'
 
 export default function Navbar() {
   return (
+    <>
     <nav className='navbar-container'>
       <img src={logo} alt="logo" className='logo'/>
       <div className='para-container'>
@@ -25,10 +30,40 @@ export default function Navbar() {
         <button className='login'>Login In</button>
         <button className='sign'>Sign Up</button>
       </div>
-      <div className='button-container-mobile'>
-        <button className='login b'><IoIosLogIn/></button>
-        <button className='sign'><FiUserPlus/></button>
-      </div>
     </nav>
+    <nav className='navbar-container-mobile'>
+    <img src={logo} alt="logo" className='logo'/>
+    <div className="popup-container">
+      <Popup
+        modal
+        trigger={
+          <button className="trigger-button" type="button">
+            <IoReorderThreeSharp />
+          </button>
+        }
+      >
+        {close => (
+          <div >
+                 <button
+           type="button"
+           className="trigger-button cross"
+           onClick={() => close()}
+          >
+            <RxCross2 />
+          </button>
+            <div className='popucont'>
+              <p>Home</p>
+              <p>Leader Board</p>
+              <p>Test</p>
+              <p>Test by College</p>
+              <p>Login In</p>
+              <p>Sign Up</p>
+            </div>
+        </div>
+     )}
+      </Popup>
+    </div>
+    </nav>
+    </>
   )
 }

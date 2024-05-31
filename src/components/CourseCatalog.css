@@ -9,9 +9,17 @@
 height: 508px;
 top: 5590px;
 gap: 0px;
-  opacity: 70%;
 }
-
+.blur-container{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(250, 249, 249, 0.48) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 508px;
+}
 .btn-div{
     display: flex;
     align-items: center;
@@ -28,7 +36,6 @@ font-weight: 600;
 line-height: 76.8px;
 text-align: left;
 color: #000000 !important;
-opacity: 100% !important;
 margin: 0%;
 }
 .catalogcontainer p{
@@ -47,14 +54,14 @@ color: #595454;
 margin: 1%;
 }
 .btn-div button{
-    width: 220px;
+    width: 240px;
 height: 60px;
 top: 35px;
 left: 66.5px;
-padding: 24px 64px 24px 64px;
+text-align: center;
 gap: 8px;
 border-radius: 4px;
-  
+  font-size: 20px;
 color: white;
 border: none;
 margin-top: 19%;
@@ -77,7 +84,7 @@ margin-top: 19%;
         justify-content: center;
     }
     .catalogcontainer h1{
-    font-size: 34px;
+    font-size: 27px;
     text-align: center;
     }
     .catalogcontainer p{

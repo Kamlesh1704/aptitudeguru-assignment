@@ -13,7 +13,7 @@ export default function Stories() {
         return (
           <div
             className={className}
-            style={{ ...style, display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"35px",width:"35px"}}
+            style={{ ...style, display: "flex",alignItems:"center",justifyContent:"center", backgroundColor: "black", height:"40px",width:"40px"}}
             onClick={onClick}
           />
         );
@@ -24,12 +24,32 @@ export default function Stories() {
         return (
           <div
             className={className}
-            style={{ ...style,display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"35px",width:"35px"}}
+            style={{ ...style,display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"40px",width:"40px"}}
             onClick={onClick}
           />
         );
       }
-
+      function SampleNextArroww(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "flex",alignItems:"center",justifyContent:"center", backgroundColor: "black", height:"25px",width:"25px"}}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArroww(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style,display: "flex",alignItems:"center",justifyContent:"center", background: "black", height:"25px",width:"25px"}}
+            onClick={onClick}
+          />
+        );
+      }
     const settings = {
         dots: true,
         slidesToShow: 1,
@@ -37,11 +57,18 @@ export default function Stories() {
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
       }
+      const settingss = {
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArroww />,
+        prevArrow: <SamplePrevArroww />
+      }
   return (
     <div className='stories-div'>
       <h1 className='storyheaind'>Customer Stories</h1>
       <Slider {...settings} className='Slider'>
-        <div className='slider-card'>
+      <div className='slider-card'>
             <BiSolidQuoteAltLeft className='icon'/>
             <div className='slidercontent'>
                 <div>
@@ -51,6 +78,7 @@ export default function Stories() {
                 </div>
                     <img src={boy} alt="" className='boy'/>
             </div>
+
         </div>
         <div className='slider-card'>
             <BiSolidQuoteAltLeft className='icon'/>

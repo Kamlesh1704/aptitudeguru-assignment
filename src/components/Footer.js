@@ -21,11 +21,11 @@ export default function Footer() {
           </div>
         </div>
         <div className='containe-link'>
-          <h1 className='two'>Help</h1>
+          <h1 className='two h'>Help</h1>
           <p>Support</p>
-          <p className='tem'>Term & condition
+          <p className='tem'>condition
           </p>
-          <p className='tem'>Privacy Policy</p>
+          <p className='tem'>Policy</p>
         </div>
         <div className='containe-link'>
           <h1 className='two'>Quick Links</h1>
@@ -34,12 +34,17 @@ export default function Footer() {
           <p>Contact us</p>
           <p>Features</p>
         </div>
-        <div className='containe-link'>
-          <h1 className='twoo'>Newsletter</h1>
+        <div className='containe-link dis'>
+          <h1 className='twoo n'>Newsletter</h1>
           <input className='input'/>
           <button className='subs'>Subscribe</button>
         </div>
       </div>
+      <div className='didd'>
+          <h1 className='twoo n'>Newsletter</h1>
+          <input className='inputt'/>
+          <button className='subss'>Subscribe</button>
+        </div>
       <div className='hrr'></div>
       <p className='rigth'>2024 All rights are Reserved </p>
     </div>

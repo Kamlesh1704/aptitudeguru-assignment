@@ -1,7 +1,7 @@
 import React from 'react'
 import starr from '../img/starr.png'
 import spiral2 from '../img/spiral2.png'
-import smallsquare from '../img/smallsquare.png'
+import recc from '../img/recc.png'
 
 import './Support.css'
 
@@ -27,22 +27,22 @@ export default function Support() {
             <div className='support-card' style={{backgroundColor:"#E5F8E7"}}>
                 <h1>Placement </h1>
                 <p>web page for a student to take objective <br/>student to take objective</p>
-                <div className='img-div'>
-                    <img src={smallsquare} alt="" className='img-1'/>
+                <div className='img-div-1'>
+                    <img src={recc} alt="" className='img-2'/>
                 </div>
             </div>
             <div className='support-card' style={{backgroundColor:"#D3ECFE"}}>
                 <h1>Placement </h1>
                 <p>web page for a student to take objective <br/>student to take objective</p>
                 <div className='img-div'>
-                    <img src={smallsquare} alt="" className='img-1'/>
+                    <img src={recc} alt="" className='img-1'/>
                 </div>               
             </div>
             <div className='support-card' style={{backgroundColor:"#FFE0E7"}}>
                 <h1>Placement </h1>
                 <p>web page for a student to take objective <br/>student to take objective</p>
-                <div className='img-div'>
-                    <img src={smallsquare} alt="" className='img-1'/>
+                <div className='img-div-1'>
+                    <img src={recc} alt="" className='img-2'/>
                 </div>          
             </div>
         </div>
